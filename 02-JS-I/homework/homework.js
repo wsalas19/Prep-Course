@@ -1,7 +1,7 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = HolaSoyWilliam;
+const nuevaString = 'HolaSoyWilliam';
 
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 4;
@@ -83,11 +83,15 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (str1.lenght===str2.lenght){
-return true;
-  }
+  var a = str1.length;
+  var b = str2.length;
+
+  if(a===b){
+    return true;
   
-  return false;   
+}
+  
+  return false;  
 }
 
 function menosQueNoventa(num) {
@@ -188,19 +192,20 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-var positivo = 'Es Positivo';
-var negativo = 'Es Negativo';
-if(num<0){
+var positivo = 'Es positivo';
+var negativo = 'Es negativo';
+if(numero<0){
   return negativo;
 
 }
-if(num>0){
+
+if(numero>0){
 return positivo;
 
 }
 
 
-if (num===0){
+if (numero===0){
   return false;
 }
 
@@ -211,14 +216,16 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-  return srt + '!';
+  var simbolo = `${str}!`;
+  return simbolo;
 }
 
 function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  return nombre + apellido;
+  var c = nombre + ' ' + apellido;
+  return c;
   
 }
 
@@ -274,15 +281,44 @@ function esVocal(letra){
   var error = 'Dato incorrecto';
   var vocal = 'Es vocal'
 
-  if (letra.lenght>1){
+  if (letra.length>1){
     return error;
   }
-  if (letra===a,e,i,o,u){
+  if (letra==='a'){
     return vocal;
   }
-  if (letra!==a,e,i,o,u){
-    return error;
-  }
+  if (letra==='e'){
+    return vocal;}
+  if (letra==='i'){
+      return vocal;}
+  if (letra==='o'){
+        return vocal;}
+  if (letra==='u'){
+          return vocal;}  
+
+  if (letra!=='a'){
+            return error;
+          }
+  if (letra!=='e'){
+            return error;}
+  if (letra!=='i'){
+              return error;}
+  if (letra!=='o'){
+                return error;}
+  if (letra!=='u'){
+                  return error;}  
+
+                  
+
+
+
+
+
+
+
+
+  
+
 }
 
 
