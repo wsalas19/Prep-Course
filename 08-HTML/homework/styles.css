@@ -1,0 +1,29 @@
+h1{
+    color : #ED6B86;  
+   
+    font-size: 50px;
+  }
+  img{
+      width: 400px;
+  }
+  .thirdDiv{
+      width: 500px;
+      height: 600px;
+      background: #7A8450;
+      padding: 50px;
+      border: 8px dashed solid #7A8450 ;
+  }
+  #spanId{
+      font-size: 18px;
+  }
+  body{
+      background-image: url(https://i2.wp.com/files.123freevectors.com/wp-content/solidbackground/very-pale-yellow-free-solidcolor-background.jpg?w=800&q=95);
+      background-size: cover;
+      font-family:'Helvetica', sans-serif;
+  }
+  div {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+  
