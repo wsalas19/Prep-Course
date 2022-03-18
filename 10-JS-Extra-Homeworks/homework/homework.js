@@ -84,7 +84,7 @@ function sortArray(arr) {
   //Ej: Recibe ---> ["You", "are", "beautiful", "looking"] || Devuelve ---> [“You", "are", "looking", "beautiful"]
   //Escribe tu código aquí
 
-}
+} 
 
 
 function buscoInterseccion(arreglo1, arreglo2){
